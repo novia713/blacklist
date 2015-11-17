@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Blacklist",
+  "description": "Blacklist annoying callers",
+  "author": "leandro713",
+
+  "content_scripts": [{
+    "matches": "app://callscreen.gaiamobile.org/index.html",
+    "css": ["/style/blacklist.css"],
+    "js": ["/js/blacklist.js"]
+  }],
+
+  "permissions": {
+    "desktop-notification":{}
+  }
+}

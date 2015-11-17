@@ -1,0 +1,47 @@
+
+#screen {
+    font-size: 100px;
+    border-width: 0px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 2.1em;
+    border-radius: 50%
+}
+.btn {
+    font-size: 30px !important;
+    background-color: 006A8D !important;
+}
+#points_container {
+    left: 20px;
+    padding: 5px;
+    background-size: 42px 42px;
+    float: left;
+    position: relative;
+    border-radius: 50%;
+    background-color: #e8b443 !important;
+    line-height: 1.1rem;
+}
+#points {
+    color: white !important;
+}
+#points_container {
+    float: left;
+    position: relative;
+}
+section[role="region"] {
+    height: 100%;
+}
+div[role="main"] {
+    background: orange !important;
+    height: calc(100% - 5rem);
+    overflow: hidden;
+}
+.skin-comms section[role="region"] > header:first-child,
+section.skin-comms[role="region"] > header:first-child {
+    background: linear-gradient(orange, #e8b443) !important;
+}
