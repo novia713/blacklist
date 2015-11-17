@@ -7,8 +7,8 @@
 
   "content_scripts": [{
     "matches": "app://callscreen.gaiamobile.org/index.html",
-    "css": ["/style/blacklist.css"],
-    "js": ["/js/blacklist.js"]
+    "css": ["style/blacklist.css"],
+    "js": ["js/blacklist.js"]
   }],
 
   "permissions": {
